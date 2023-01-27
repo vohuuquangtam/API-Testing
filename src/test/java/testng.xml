@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="E:/Tester Funix/automaton testing/ASM/ASM3/ASSIGNMENT-3/src/test/java/com/api/auto/testcase/TC_API_Login.java">
+        <classes>
+            <class name="com.api.auto.testcase.TC_API_Login">
+                <methods>
+                    <include name="TC01_Validate200Ok"/>
+                    <include name="TC02_ValidateMessage"/>
+                    <include name="TC03_ValidateToken"/>
+                    <include name="TC04_ValidateUserType"/>
+                    <include name="TC05_ValidateAccount"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" preserve-order="true"
+          name="E:/Tester Funix/automaton testing/ASM/ASM3/ASSIGNMENT-3/src/test/java/com/api/auto/testcase/TC_API_CreateWork.java">
+        <classes>
+            <class name="com.api.auto.testcase.TC_API_CreateWork">
+                <methods>
+                    <include name="TC01_Validate201Created"/>
+                    <include name="TC02_ValidateWorkId"/>
+                    <include name="TC03_ValidateNameOfWorkMatched"/>
+                    <include name="TC04_ValidateExperienceMatched"/>
+                    <include name="TC05_ValidateEducationMatched"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
